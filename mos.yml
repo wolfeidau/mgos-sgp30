@@ -14,12 +14,16 @@ sources:
   - src
   - src/SGP30_driver
 
+includes:
+  - include
+
 # List of dirs. Files from these dirs will be copied to the device filesystem
 filesystem:
   - fs
 
 # List of libraries used by this app, in order of initialisation
 libs:
+  - origin: https://github.com/mongoose-os-libs/i2c
 
 # Used by the mos tool to catch mos binaries incompatible with this file format
 manifest_version: 2017-05-18
