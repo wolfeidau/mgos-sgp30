@@ -1,0 +1,25 @@
+author: Mark Wolfe <mark@wolfe.id.au>
+description: A SGP30 lib
+version: 1.0
+type: lib
+
+# Optional. List of tags for online search.
+tags:
+  - c
+  - js
+  - hw
+
+# List of files / directories with C sources. No slashes at the end of dir names.
+sources:
+  - src
+  - src/SGP30_driver
+
+# List of dirs. Files from these dirs will be copied to the device filesystem
+filesystem:
+  - fs
+
+# List of libraries used by this app, in order of initialisation
+libs:
+
+# Used by the mos tool to catch mos binaries incompatible with this file format
+manifest_version: 2017-05-18
